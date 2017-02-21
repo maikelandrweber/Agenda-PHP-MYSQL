@@ -1,0 +1,230 @@
+/*----------------CABEÇALHO-------------------*/
+header{
+	width:auto;
+	height:100px;
+	font-size:30px;	
+	border: 1px solid black;
+	background:gray url(../img/agenda.png) repeat center;
+	text-align:center;
+	position:relative;
+}
+/*----------------FORM DATA-------------------*/
+.selecao{
+	margin-top: 30px;
+	position:absolute;
+
+}
+/*----------------TABELA-------------------*/
+table{
+	margin:0 auto;
+	border-collapse: collapse;
+	border:2px solid #000080; 
+	margin-top:30px;
+	width:auto;
+	font-size:16px;
+	
+	/* visual do link */
+	background-color:#87CEEB;
+	background: -webkit-linear-gradient(left top, #B0E0E6 , #E0FFFF); /* Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, #B0E0E6, #E0FFFF); /* Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, #B0E0E6, #E0FFFF); /* Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, #B0E0E6 , #E0FFFF); /* Standard syntax */
+	
+}
+table td:hover{
+	
+	background-color:white;
+
+}
+tr, td{
+	padding: 10px;
+}
+
+/*----------------FONTE-------------------*/
+h3{
+	margin: 0 auto;
+	text-align:center;
+}
+h2{
+	margin-top:60px;
+	text-align:center;
+}
+/*----------------BODY-------------------*/
+body {
+	background:#E8E8E8 url(../img/textura.jpg) repeat center; 
+}
+/*----------------TAG "A" -------------------*/
+a:link{
+	color:#008B8B;
+	text-decoration:none;
+	
+}
+a:visited{
+	color:#008B8B;
+	text-decoration:none;
+}
+.reserva{
+	margin:0 auto;
+	text-align:center;
+	font-size:26px;
+}
+.normas{
+	width:700px;
+	height:auto;
+	background:#D7D7D7;
+	margin:0 auto;
+	font-size:18px;
+	text-align:left;
+	display:none;
+	box-shadow: 10px -9px 3px #434242;
+}
+.multa{
+	width:700px;
+	height:auto;
+	background:#D7D7D7;
+	margin:0 auto;
+	font-size:18px;
+	text-align:left;
+	display:none;
+	box-shadow: 10px -9px 3px #434242;
+}
+.centro{
+	text-align:center;
+	float:center;
+	margin-top:60px;;
+}
+.form{
+	text-align:center;
+	position:relative;
+	
+}
+input[type=text] {
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+input[type=month] {
+    width: 200px;
+    padding: 9px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #555;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=month]:focus {
+    border: 3px solid #555;
+}
+input[type=password] {
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=password]:focus {
+    border: 3px solid #555;
+}
+input[type=submit] {
+    width: 200px;
+    padding: 9px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #555;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=submit]:focus {
+    border: 3px solid #555;
+}
+input[type=button] {
+    width: 200px;
+    padding: 9px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #555;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=button]:focus {
+    border: 3px solid #555;
+}
+select {
+    width: 200px;
+    padding: 9px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #555;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+select:focus {
+    border: 3px solid #555;
+}
+/* NAVIGATION ------------------------------------------------------------*/
+#menu ul {
+	padding:2px 5px;
+	margin:0px auto;
+	background-color:#8D8D8D;
+    position: relative;
+    display: inline-table;
+
+}
+#menu ul li { 
+	display: inline;
+    position: relative;
+ }
+#menu ul li a {
+	padding: 4px 10px;
+	display: inline-block;
+	
+	/* visual do link */
+	background-color:#B8C6C8;
+	background: -webkit-linear-gradient(left top, #B8C6C8 , #ECF5F5); /* Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, #B8C6C8, #ECF5F5); /* Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, #B8C6C8, #ECF5F5); /* Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, #B8C6C8 , #ECF5F5); /* Standard syntax */
+		
+	color: #333;
+	text-decoration: none;
+	border-bottom:3px solid;
+}
+#menu ul li a:hover {
+	background-color:#0117A4;
+	color: #0117A4;
+	border-bottom:3px solid #0117A4;
+	}
+#menu ul li a i{
+  display: none;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 50%;
+  top: -4px;
+}
+#menu  li ul li {
+
+  border-top: 1px solid #a03a26;
+  border-bottom: 1px solid #812f1e;
+}

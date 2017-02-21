@@ -1,0 +1,4 @@
+>Cancelamento de Reserva:
+Caso haja alguma restrição ao cancelamento, o mesmo ocorre aqui!
+
+Multa.txt
